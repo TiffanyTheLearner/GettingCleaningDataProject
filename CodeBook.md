@@ -20,9 +20,14 @@ The full description of the data cleaning process can be find in README.md file.
 
 ### Tidy data set
 
-The tidy data set is a [180, 68] data frame.  It includes the average of each
-variable for each activity and each subject.  These variables are the mean and 
-standard deviation for each measurement.
+The tidy data set is a [180, 68] data frame. The following are the descriptions
+for the data in each column
+
+- **subject** are 30 people participated in the experiment
+- **activity** are the activities people performed during the experiment
+- **all other 66 columns** are the average of each variable for each activity 
+  and each subject.  These variables are the mean and standard deviation for 
+  each measurement.
 
 
 
